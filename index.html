@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Hi, [Her Name] 💌</title>
+  <title>Hi, [Angelique] 💌</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
     :root {
@@ -235,21 +235,21 @@
       <span>A tiny question for you</span>
     </div>
 
-    <h1>Hi, [Her Name] ✨</h1>
+    <h1>Hi, [Angelique] ✨</h1>
     <p class="subtitle">
-      I’ve been thinking about you (in a totally non-creepy, “you’re really special” way),
-      and I wanted to ask you something properly.
+      So I’ve been thinking about you, and I am a little bit shy so I
+      decided this would be a nice way of asking you this..
     </p>
 
     <p class="section-title">Why I’d love another date</p>
     <ul>
       <li>
-        <span class="bullet">🌟</span>
-        <span>You make even the most ordinary days feel a little less ordinary.</span>
+        <span class="bullet"></span>
+        <span>Angelique, you make even the most ordinary days feel a little less ordinary.</span>
       </li>
       <li>
-        <span class="bullet">😂</span>
-        <span>I miss laughing with you about the most random things.</span>
+        <span class="bullet"></span>
+        <span>I miss being able to do everything with you and even just nothing.</span>
       </li>
       <li>
         <span class="bullet">💭</span>
@@ -261,7 +261,7 @@
     <p class="subtitle">
       Would you be up for
       <span class="highlight">going out with me again</span>?  
-      Nothing intense — just two people, some good food or coffee, and a fresh start.
+      Nothing crazy I promise — just two people, some good food, and a fresh start.
     </p>
 
     <div class="button-row">
@@ -277,7 +277,7 @@
 
     <p class="note">
       Whatever you decide, I’m really grateful you even opened this page.
-      You deserve all the happiness in the world. — [Your Name]
+      You deserve all the happiness in the world. — [Yours, Zainab]
     </p>
   </div>
 
@@ -306,20 +306,15 @@
     }
 
     yesBtn.addEventListener("click", () => {
-      showResponse(`
-        <strong>YAY! 🥹💘</strong><br>
-        I am officially smiling at my screen like an idiot.<br><br>
-        Text me when you're free and I’ll plan something cute.
-      `);
-      spawnHearts(18);
+  // Replace +1XXXXXXXXXX with YOUR phone number
+  window.location.href = "sms:+8482397119&body=Yes! I'd love to go out again ❤️";
     });
 
     maybeBtn.addEventListener("click", () => {
-      showResponse(`
-        <strong>Totally okay 💛</strong><br>
-        No pressure at all. If you ever feel like talking or grabbing coffee,
-        I’m here — at your pace, on your terms.
-      `);
+  // MAYBE → opens iMessage with a softer, let's-talk text
+  window.location.href = "sms:+8482397119&body=Maybe :) Let's talk first?";
+});
+
       spawnHearts(6);
     });
   </script>
